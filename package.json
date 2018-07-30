@@ -1,0 +1,42 @@
+{
+  "name": "ZZB",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-bundle": "curl \"http://localhost:8081/index.android.bundle?platform=android\" -o \"android/app/src/main/assets/index.android.bundle\""
+  },
+  "dependencies": {
+    "buffer": "^5.0.8",
+    "lodash": "^4.17.4",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-auth0": "^1.2.1",
+    "react-native-camera": "^0.13.0",
+    "react-native-elements": "^0.18.5",
+    "react-native-firebase": "^3.2.1",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-qrcode-scanner": "0.0.29",
+    "react-native-uuid": "^1.4.9",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^1.0.0-beta.23",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
