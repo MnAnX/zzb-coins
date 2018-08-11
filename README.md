@@ -6,7 +6,7 @@ Allow user to:
 - manage group members
 - join/leave group(s)
 - work to earn ZZB
-- vote/validate on work between group members
+- vote/validate on work among group members
 Backend is google firebase.
 
 App launched on both iOS and Android:
