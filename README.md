@@ -1,6 +1,6 @@
 # ZzbCoins
 
-A react native mobile app to mimic cryptocurrency on exchanging work in between people within group(s).
+A react native mobile app to mimic cryptocurrency on exchanging work in between people within group.
 Allow user to:
 - create group(s)
 - manage group members
